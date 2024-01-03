@@ -15,14 +15,21 @@
     
 <section>
     <form action="/" id="form">
-        <label for="taskName">Task Name:</label><input name="taskName" id="taskName"><br>
-        <label for="taskText">Task Text:</label><input name="taskText" id="taskText"><br>
-        <input type="submit" value="Create Task">
+        <label for="taskName">Task Name:</label><br>
+        <input type ="text" name="taskName" id="taskName"><br>
+        <label for="taskText">Task Text:</label><br>
+        <input type ="text" name="taskText" id="taskText"><br>
+        <input type="submit" value="Add a Task">
     </form>
     <br>
     <button for="submitList" input id="submitList">Submit All Tasks</button>
     <!-- On submit it takes the now list of tasks and display the first in the array only, 
         after X amount of time it will display the next task, until list is complete. -->
+</section>
+<section>
+    <div id="taskList"></div>
+
+    
 </section>
 </body>
 </html>

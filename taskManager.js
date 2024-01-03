@@ -13,19 +13,19 @@ let taskManager = (function(){
     this.getTasks = function(){
         // get all tasks
         console.log(this.taskList)
+        return this.taskList
     };
 
     return {
         initialize:function(){
-            // save to task list
-            // questList = localStorage.getItem("questList") === null ? getQuests() : JSON.parse(localStorage.getItem("questList"))
+            taskList = localStorage.getItem("taskList") === null ? createTask() : JSON.parse(localStorage.getItem("taskList"))
+
         }, 
         createTask:function(taskName, taskText){
             createTask(taskName, taskText)
-            getTasks()
         },
-        questList:function(){
-            getTasks()
+        getTasks:function(){
+           return getTasks()
         }
     }
 }())
