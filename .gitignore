@@ -1,4 +1,7 @@
-
+obj/Debug
+bin/Debug
+obj/Release
+bin/Release
 .vs/Tiny-Tasks/v17/.suo
 .vs/Tiny-Tasks/v17/.futdcache.v2
 .vs/Tiny-Tasks/FileContentIndex/2b86b140-ba09-47ee-9d20-a3aa72d2d4d4.vsidx
